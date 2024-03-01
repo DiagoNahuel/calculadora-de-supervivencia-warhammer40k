@@ -1,0 +1,90 @@
+/* Estilos CSS con Flexbox y colores oscuros */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b; /* Color de fondo oscuro */
+    color: #ddd; /* Color de texto claro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #e0e0e0; /* Color de encabezados */
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #cc0000; /* Color del botón CTA */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #990000; /* Color del botón CTA al pasar el mouse */
+}
+
+form input[type="email"],
+form input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="email"] {
+    width: 300px;
+}
+
+form input[type="submit"] {
+    background-color: #cc0000; /* Color del botón de suscripción */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #990000; /* Color del botón de suscripción al pasar el mouse */
+}
+/* Estilos CSS con Flexbox, colores oscuros y fondo de imagen de Warhammer 40,000 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('imágenes/Warhammer_40_000_Games_Workshop_Space_Marine_space_marines_Ultramarines_Chaos_Chaos_Space_Marine_Chaos_Space_Marines-1893505.jpg!d'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #ddd; /* Color de texto claro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente para mejorar la legibilidad */
+}
