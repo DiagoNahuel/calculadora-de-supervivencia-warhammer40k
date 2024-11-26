@@ -23,19 +23,19 @@ document.addEventListener('DOMContentLoaded', function() {
         if (random < probabilidadSobrevivir) {
             alert("¡" + nombre + ", felicidades! ¡Sobrevivirías en Warhammer 40,000!");
         } else if (random < probabilidadSobrevivir + probabilidadCaos) {
-            alert("Lo siento, " + nombre + ", has sido consumido por los dioses del caos.");
+            alert("Lo siento, " + nombre + ", te han consumido los dioses del caos.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos) {
-            alert("Lo siento, " + nombre + ", has sido devorado por un enjambre tiránido.");
+            alert("Lo siento, " + nombre + ", te ha devorado un enjambre tiránido.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos + probabilidadWaaaagh) {
             alert("Lo siento, " + nombre + ", has caído bajo el asedio de un Waaaagh orko.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos + probabilidadWaaaagh + probabilidadEldars) {
-            alert("Lo siento, " + nombre + ", has sido asesinado por Eldars.");
+            alert("Lo siento, " + nombre + ", te han asesinado los Eldar.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos + probabilidadWaaaagh + probabilidadEldars + probabilidadCommorragh) {
-            alert("Lo siento, " + nombre + ", has sido encarcelado en Commorragh y los drukhari te torturarán por la eternidad.");
+            alert("Lo siento, " + nombre + ", te han encarcelado en Commorragh y los drukhari te torturarán por la eternidad.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos + probabilidadWaaaagh + probabilidadEldars + probabilidadCommorragh + probabilidadNecrones) {
             alert("Lo siento, " + nombre + ", has muerto contra los necrones.");
         } else if (random < probabilidadSobrevivir + probabilidadCaos + probabilidadTiránidos + probabilidadWaaaagh + probabilidadEldars + probabilidadCommorragh + probabilidadNecrones + probabilidadCaballerosGrises) {
-            alert("Lo siento, " + nombre + ", has sido asesinado luego de ser salvado por los Caballeros grises.");
+            alert("Lo siento, " + nombre + ", te han asesinado luego de ser salvado por los Caballeros grises.");
         } else {
             alert("Lo siento, " + nombre + ", has muerto por hereje.");
         }
